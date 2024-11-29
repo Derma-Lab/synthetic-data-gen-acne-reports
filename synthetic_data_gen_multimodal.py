@@ -11,9 +11,9 @@ from langchain_community.chat_models import AzureChatOpenAI
 
 
 llm = AzureChatOpenAI(
-    openai_api_key="0a077842da424c3593ee8aa9969b096c",
-    openai_api_base="https://derma-lab-test.openai.azure.com/",
-    openai_api_version="2023-03-15-preview",
+    openai_api_key="",
+    openai_api_base="",
+    openai_api_version="",
     deployment_name="gpt-4o"
 )
 
